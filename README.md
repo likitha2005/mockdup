@@ -22,24 +22,6 @@
 - Faker.js for data generation  
 - MySQL database (via `mysql2`)
 
----
-mockdup/
-├── backend/
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── projects.js
-│   │   └── resources.js
-│   ├── middleware/
-│   │   └── verifyToken.js
-│   ├── config/
-│   │   └── db.js
-│   ├── index.js
-│   └── .env
-└── frontend/
-    ├── index.html
-    ├── styles.css
-    └── script.js
-
 
 ## 🛠 Setup Instructions
 
