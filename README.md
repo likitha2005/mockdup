@@ -28,20 +28,20 @@
 
 mockdup/
 ├── backend/
-│ ├── routes/
-│ │ ├── auth.js
-│ │ ├── projects.js
-│ │ └── resources.js
-│ ├── middleware/
-│ │ └── verifyToken.js
-│ ├── config/
-│ │ └── db.js
-│ ├── index.js
-│ └── .env
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── projects.js
+│   │   └── resources.js
+│   ├── middleware/
+│   │   └── verifyToken.js
+│   ├── config/
+│   │   └── db.js
+│   ├── index.js
+│   └── .env
 └── frontend/
-├── index.html
-├── styles.css
-└── script.js
+    ├── index.html
+    ├── styles.css
+    └── script.js
 
 
 ---
