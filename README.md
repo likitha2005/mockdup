@@ -23,9 +23,6 @@
 - MySQL database (via `mysql2`)
 
 ---
-
-## 📁 Folder Structure
-
 mockdup/
 ├── backend/
 │   ├── routes/
@@ -43,8 +40,6 @@ mockdup/
     ├── styles.css
     └── script.js
 
-
----
 
 ## 🛠 Setup Instructions
 
@@ -106,46 +101,32 @@ CREATE TABLE fields (
   type VARCHAR(50)
 );
 5. Run the Backend Server
-bash
-Copy
-Edit
 node index.js
 # Server running at http://localhost:3000
 🧪 API Examples
 ✅ Login
 http
-Copy
-Edit
 POST /api/auth/login
 json
-Copy
-Edit
 {
   "email": "admin@mockdup.io",
   "password": "Admin@123"
 }
 📁 Create a Project
 http
-Copy
-Edit
 POST /api/projects
 Authorization: Bearer <token>
 json
-Copy
-Edit
 {
   "name": "People API",
   "prefix": "people"
 }
 📦 Create a Resource
 http
-Copy
-Edit
 POST /api/resources
 Authorization: Bearer <token>
 json
-Copy
-Edit
+
 {
   "projectId": 5,
   "name": "users",
@@ -158,14 +139,10 @@ Edit
 }
 🔄 Fetch Resource Data
 http
-Copy
-Edit
 GET /api/people/users
 Response:
 
 json
-Copy
-Edit
 [
   {
     "name": "John Doe",
