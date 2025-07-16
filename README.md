@@ -1,5 +1,4 @@
 # mockdup
-# MockDup
 
 **MockDup** is a full-stack mock API builder that lets users create mock RESTful endpoints with realistic fake data using [Faker.js](https://fakerjs.dev/). Inspired by platforms like MockAPI.io, it allows you to:
 - Sign up / log in securely
@@ -44,9 +43,6 @@ mockdup/
 ├── styles.css
 └── script.js
 
-yaml
-Copy
-Edit
 
 ---
 
